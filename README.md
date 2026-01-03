@@ -1,8 +1,8 @@
-# Hi, I’m Cal 👋
+# Hi, I’m Callum 👋
 
 I’m a data-driven consultant and analyst with experience across consultancy and the public sector, specialising in turning complex data into clear, actionable insight.
 
-My work sits at the intersection of **data analytics, service design, and customer journey optimisation** combining quantitative analysis with user-centred thinking to improve decision-making and outcomes at scale.
+My work sits at the intersection of **data analytics, service design, and customer journey optimisation**, combining quantitative analysis with user-centred thinking to improve decision-making and outcomes at scale.
 
 ## What I Do
 
