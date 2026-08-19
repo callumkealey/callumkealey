@@ -34,6 +34,9 @@ My work combines **analytics, problem-solving and stakeholder engagement**: unde
 ### [Predictive Customer Analytics](https://github.com/callumkealey/predictive-customer-analytics)
 End-to-end Python and R analysis covering regression, decision trees, clustering, sentiment analysis and statistical validation. Built to understand customer behaviour and translate analytical findings into practical business recommendations.
 
+### [NHS Operational Capacity Analysis](https://github.com/callumkealey/nhs-operational-capacity-analysis)
+Python analysis of appointment demand, capacity utilisation, service performance and missed appointments across NHS operational datasets. Focused on translating service data into practical operational recommendations.
+
 ### [SQL & Tableau Market Analysis](https://github.com/callumkealey/sql-tableau-market-analysis)
 SQL and Tableau project analysing customer demographics, product sales and advertising effectiveness. Includes database preparation, joins, aggregation, derived fields and stakeholder-focused dashboard design.
 
