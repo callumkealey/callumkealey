@@ -1,42 +1,46 @@
 # Hi, I’m Callum 👋
 
-I’m a data-driven consultant and analyst with experience across consultancy and the public sector, specialising in turning complex data into clear, actionable insight.
+I’m a consultant and analyst working across **transport, infrastructure, aviation and the public sector**, with a focus on using data and evidence to support better operational, strategic and investment decisions.
 
-My work sits at the intersection of **data analytics, service design, and customer journey optimisation**, combining quantitative analysis with user-centred thinking to improve decision-making and outcomes at scale.
+My work combines **analytics, problem-solving and stakeholder engagement**: understanding complex systems, identifying what the data is saying, and turning that into practical recommendations.
 
 ## What I Do
 
-- Analyse and model complex datasets to support strategic and investment decisions  
-- Design and improve end-to-end customer and service journeys  
-- Translate technical analysis into clear narratives for senior stakeholders  
-- Build dashboards, visualisations, and analytical pipelines for real-world use  
+- Analyse operational, performance and market data to support decision-making
+- Build forecasting, scenario and performance models
+- Translate complex analysis into clear recommendations for senior stakeholders
+- Work across multidisciplinary teams on transport, infrastructure and public-sector problems
+- Develop dashboards, visualisations and analytical tools to make evidence easier to use
 
 ## Technical Toolkit
 
 **Analytics & Data**
-- Python (Pandas, NumPy, NLTK)
+- Python — pandas, NumPy, statsmodels, scikit-learn, NLTK
 - SQL
-- Excel (advanced modelling)
+- R
+- Excel
 - Power BI & Tableau
 
 **Methods**
-- Data visualisation & storytelling  
-- Forecasting & scenario analysis  
-- Service design & journey mapping  
-- Stakeholder facilitation & workshops  
+- Predictive modelling and statistical analysis
+- Forecasting and scenario analysis
+- Data cleaning, validation and exploratory analysis
+- Performance and KPI analysis
+- Data visualisation and storytelling
+- Stakeholder workshops and facilitation
+
+## Selected Projects
+
+### [Predictive Customer Analytics](https://github.com/callumkealey/predictive-customer-analytics)
+End-to-end Python and R analysis covering regression, decision trees, clustering, sentiment analysis and statistical validation. Built to understand customer behaviour and translate analytical findings into practical business recommendations.
+
+### [SQL & Tableau Market Analysis](https://github.com/callumkealey/sql-tableau-market-analysis)
+SQL and Tableau project analysing customer demographics, product sales and advertising effectiveness. Includes database preparation, joins, aggregation, derived fields and stakeholder-focused dashboard design.
 
 ## Current Focus
 
-- Applying analytics to customer journeys and operational processes  
-- Building end-to-end data pipelines and insight tools  
-- Developing projects that combine **UX thinking with quantitative analysis**  
-
-## Selected Interests
-
-- Data-informed product and service design  
-- Ethical and explainable analytics  
-- Systems thinking and problem-solving  
+I’m particularly interested in roles and projects where **data, operations and strategy overlap** — especially transport networks, infrastructure, service performance and operational improvement.
 
 ## Get in Touch
 
-- LinkedIn: https://www.linkedin.com/in/callum-kealey-25383024a/
+- [LinkedIn](https://www.linkedin.com/in/callum-kealey-25383024a/)
