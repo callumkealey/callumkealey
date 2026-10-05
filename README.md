@@ -1,49 +1,52 @@
-# Hi, I’m Callum 👋
+# Callum Kealey
 
-I’m a consultant and analyst working across **transport, infrastructure, aviation and the public sector**, with a focus on using data and evidence to support better operational, strategic and investment decisions.
+**Data analysis • SQL • Python • Tableau • Operational decision support**
 
-My work combines **analytics, problem-solving and stakeholder engagement**: understanding complex systems, identifying what the data is saying, and turning that into practical recommendations.
+This portfolio shows how I prepare and analyse data, validate findings, and translate them into business and operational recommendations. The three projects below were completed as part of the **LSE Data Analytics Career Accelerator**.
 
-## What I Do
+## Selected projects
 
-- Analyse operational, performance and market data to support decision-making
-- Build forecasting, scenario and performance models
-- Translate complex analysis into clear recommendations for senior stakeholders
-- Work across multidisciplinary teams on transport, infrastructure and public-sector problems
-- Develop dashboards, visualisations and analytical tools to make evidence easier to use
+### 1. [Predictive Customer Analytics](https://github.com/callumkealey/predictive-customer-analytics)
+**Python & R | Customer behaviour, statistical modelling and segmentation**
 
-## Technical Toolkit
+- **Question:** Which factors explain loyalty-point accumulation, and how could customer behaviour inform loyalty and marketing decisions?
+- **Evidence:** Python regression and decision-tree modelling, a 70:30 train/test split, tree pruning, and scaled k-means clustering with elbow and silhouette comparisons. The R script adds multiple regression, residual diagnostics and scenario predictions.
+- **Finding:** Spending behaviour was the strongest driver of loyalty points; the analysis identified five customer groups. The R validation records approximately 84% of variation explained by the multiple regression model.
 
-**Analytics & Data**
-- Python — pandas, NumPy, statsmodels, scikit-learn, NLTK
-- SQL
-- R
-- Excel
-- Power BI & Tableau
+[Python notebook](https://github.com/callumkealey/predictive-customer-analytics/blob/main/customer_behaviour_analysis.ipynb) · [R validation](https://github.com/callumkealey/predictive-customer-analytics/blob/main/statistical_validation.R) · [Technical report & recommendations](https://github.com/callumkealey/predictive-customer-analytics/blob/main/technical_report.pdf)
 
-**Methods**
-- Predictive modelling and statistical analysis
-- Forecasting and scenario analysis
-- Data cleaning, validation and exploratory analysis
-- Performance and KPI analysis
-- Data visualisation and storytelling
-- Stakeholder workshops and facilitation
+### 2. [SQL & Tableau Market Analysis](https://github.com/callumkealey/sql-tableau-market-analysis)
+**SQL, Tableau & Excel | Customer demographics, sales and advertising**
 
-## Selected Projects
+- **Question:** How do purchasing patterns and advertising engagement vary across customer groups and countries?
+- **Evidence:** SQL joins on customer ID, spending aggregation with `SUM` and `GROUP BY`, a derived household field, and intermediate tables joining country-level spending with social-media engagement. The report documents Tableau dashboard design, demographic filters and accessibility choices.
+- **Finding:** Product-spending proportions varied relatively little between countries; the project identifies the need for time-series advertising and more detailed product data before drawing stronger conclusions.
 
-### [Predictive Customer Analytics](https://github.com/callumkealey/predictive-customer-analytics)
-End-to-end Python and R analysis covering regression, decision trees, clustering, sentiment analysis and statistical validation. Built to understand customer behaviour and translate analytical findings into practical business recommendations.
+[SQL script](https://github.com/callumkealey/sql-tableau-market-analysis/blob/main/market_analysis.sql) · [Report, dashboard design & visualisations](https://github.com/callumkealey/sql-tableau-market-analysis/blob/main/market_analysis_report.pdf)
 
-### [NHS Operational Capacity Analysis](https://github.com/callumkealey/nhs-operational-capacity-analysis)
-Python analysis of appointment demand, capacity utilisation, service performance and missed appointments across NHS operational datasets. Focused on translating service data into practical operational recommendations.
+### 3. [NHS Operational Capacity Analysis](https://github.com/callumkealey/nhs-operational-capacity-analysis)
+**Python | Appointment demand, capacity and missed appointments**
 
-### [SQL & Tableau Market Analysis](https://github.com/callumkealey/sql-tableau-market-analysis)
-SQL and Tableau project analysing customer demographics, product sales and advertising effectiveness. Includes database preparation, joins, aggregation, derived fields and stakeholder-focused dashboard design.
+- **Question:** How can appointment data support capacity planning and service improvement?
+- **Evidence:** The project documents pandas date standardisation and monthly aggregation, data-quality checks, utilisation comparisons, and visual analysis of service settings, professional groups and attendance.
+- **Recommendation:** Improved reminders, easier cancellations and alternative appointment modes were proposed to address missed appointments. Social-media data was treated as supplementary evidence because it was insufficiently NHS-specific.
 
-## Current Focus
+[Python notebook & visualisations](https://github.com/callumkealey/nhs-operational-capacity-analysis/blob/main/nhs_operational_capacity_analysis.ipynb) · [Operational report & recommendations](https://github.com/callumkealey/nhs-operational-capacity-analysis/blob/main/nhs_operational_capacity_report.pdf)
 
-I’m particularly interested in roles and projects where **data, operations and strategy overlap** — especially transport networks, infrastructure, service performance and operational improvement.
+## Where to find the technical evidence
 
-## Get in Touch
+| Skill | Evidence in this portfolio |
+| --- | --- |
+| SQL | Customer-ID joins, derived fields, grouped spending totals and intermediate tables in the market-analysis script |
+| Python | Data preparation and exploratory analysis; regression, decision trees and clustering in the customer notebook; operational analysis in the NHS project |
+| BI & visualisation | Tableau dashboard design documented in the market report; Python charts in the analytical projects |
+| R & validation | Multiple regression, residual diagnostics and scenario predictions in the customer-validation script |
+| Decision support | Findings, recommendations and limitations documented in all three project reports |
 
-- [LinkedIn](https://www.linkedin.com/in/callum-kealey-25383024a/)
+**Portfolio scope:** These are analytical case studies. Source datasets are not included in the repositories; the code and reports show the workflow and interpretation, but cannot be rerun from the repository files alone. The approximately 84% regression figure is explained variance, not a claim of 84% predictive accuracy or achieved business impact.
+
+## Interests & contact
+
+I’m interested in work where data, operations and strategy overlap, particularly service performance, operational improvement, transport and infrastructure.
+
+[LinkedIn](https://www.linkedin.com/in/callum-kealey-25383024a/)
