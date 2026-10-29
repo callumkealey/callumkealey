@@ -1,52 +1,64 @@
 # Callum Kealey
 
-**Data analysis • SQL • Python • Tableau • Operational decision support**
+**Data analytics · Python & SQL · Operational and investment decision support**
 
-This portfolio shows how I prepare and analyse data, validate findings, and translate them into business and operational recommendations. The three projects below were completed as part of the **LSE Data Analytics Career Accelerator**.
+I work on practical analytical problems: preparing and validating data, building models, and turning results into decisions that can be explained and challenged. My portfolio combines three case studies from the **LSE Data Analytics Career Accelerator** with a newer, self-directed software project focused on asset investment planning.
 
-## Selected projects
+**Areas of interest:** operational performance, infrastructure and investment planning, risk and assurance, and strategic reporting.
 
-### 1. [Predictive Customer Analytics](https://github.com/callumkealey/predictive-customer-analytics)
-**Python & R | Customer behaviour, statistical modelling and segmentation**
+## Featured project
 
-- **Question:** Which factors explain loyalty-point accumulation, and how could customer behaviour inform loyalty and marketing decisions?
-- **Evidence:** Python regression and decision-tree modelling, a 70:30 train/test split, tree pruning, and scaled k-means clustering with elbow and silhouette comparisons. The R script adds multiple regression, residual diagnostics and scenario predictions.
-- **Finding:** Spending behaviour was the strongest driver of loyalty points; the analysis identified five customer groups. The R validation records approximately 84% of variation explained by the multiple regression model.
+### [Asset Investment Planning Copilot](https://github.com/callumkealey/asset-investment-copilot)
 
-[Python notebook](https://github.com/callumkealey/predictive-customer-analytics/blob/main/customer_behaviour_analysis.ipynb) · [R validation](https://github.com/callumkealey/predictive-customer-analytics/blob/main/statistical_validation.R) · [Technical report & recommendations](https://github.com/callumkealey/predictive-customer-analytics/blob/main/technical_report.pdf)
+**Python · pandas · SciPy/HiGHS · FastAPI · Streamlit · SQLite · OpenAI API · pytest**
 
-### 2. [SQL & Tableau Market Analysis](https://github.com/callumkealey/sql-tableau-market-analysis)
-**SQL, Tableau & Excel | Customer demographics, sales and advertising**
+An independent, reproducible prototype exploring how operational asset-condition data can change capital-investment decisions. It connects a simulated enterprise asset-management REST API to data validation, transparent project scoring, mixed-integer portfolio optimisation, an interactive what-if interface and an AI copilot that uses explicit tools and document retrieval.
 
-- **Question:** How do purchasing patterns and advertising engagement vary across customer groups and countries?
-- **Evidence:** SQL joins on customer ID, spending aggregation with `SUM` and `GROUP BY`, a derived household field, and intermediate tables joining country-level spending with social-media engagement. The report documents Tableau dashboard design, demographic filters and accessibility choices.
-- **Finding:** Product-spending proportions varied relatively little between countries; the project identifies the need for time-series advertising and more detailed product data before drawing stronger conclusions.
+- **Decision model:** 40 synthetic candidate projects, alternative strategic weightings, mandatory investments and capital-budget constraints.
+- **Testable result:** Under a £250m budget, changing one asset's condition from 8 to 5 causes project **P033 to enter** the funded portfolio and **P022 to leave**. These are synthetic allocation decisions, not realised financial savings.
+- **Engineering evidence:** 15 automated tests, a 15-scenario budget/condition sensitivity analysis, and GitHub Actions CI.
 
-[SQL script](https://github.com/callumkealey/sql-tableau-market-analysis/blob/main/market_analysis.sql) · [Report, dashboard design & visualisations](https://github.com/callumkealey/sql-tableau-market-analysis/blob/main/market_analysis_report.pdf)
+[Source and technical README](https://github.com/callumkealey/asset-investment-copilot) · [Sensitivity analysis](https://github.com/callumkealey/asset-investment-copilot/blob/main/docs/sensitivity_analysis.md) · [Automated tests](https://github.com/callumkealey/asset-investment-copilot/actions)
 
-### 3. [NHS Operational Capacity Analysis](https://github.com/callumkealey/nhs-operational-capacity-analysis)
-**Python | Appointment demand, capacity and missed appointments**
+[![Asset-impact comparison in the Streamlit prototype](https://raw.githubusercontent.com/callumkealey/asset-investment-copilot/main/docs/Images/asset-impact.png)](https://github.com/callumkealey/asset-investment-copilot/blob/main/docs/Images/asset-impact.png)
 
-- **Question:** How can appointment data support capacity planning and service improvement?
-- **Evidence:** The project documents pandas date standardisation and monthly aggregation, data-quality checks, utilisation comparisons, and visual analysis of service settings, professional groups and attendance.
-- **Recommendation:** Improved reminders, easier cancellations and alternative appointment modes were proposed to address missed appointments. Social-media data was treated as supplementary evidence because it was insufficiently NHS-specific.
+*Streamlit screenshot showing a controlled, synthetic before-and-after funding comparison.*
 
-[Python notebook & visualisations](https://github.com/callumkealey/nhs-operational-capacity-analysis/blob/main/nhs_operational_capacity_analysis.ipynb) · [Operational report & recommendations](https://github.com/callumkealey/nhs-operational-capacity-analysis/blob/main/nhs_operational_capacity_report.pdf)
+## Analytics case studies
 
-## Where to find the technical evidence
+### [Predictive Customer Analytics](https://github.com/callumkealey/predictive-customer-analytics)
+**Python & R · Predictive modelling · Customer segmentation**
 
-| Skill | Evidence in this portfolio |
+Regression, pruned decision-tree modelling, scaled k-means clustering and review sentiment analysis to investigate loyalty behaviour. The accompanying R analysis adds regression diagnostics and scenario predictions; its multiple regression explains approximately **84% of observed loyalty-point variation**, not 84% predictive accuracy.
+
+[Python notebook](https://github.com/callumkealey/predictive-customer-analytics/blob/main/customer_behaviour_analysis.ipynb) · [R validation](https://github.com/callumkealey/predictive-customer-analytics/blob/main/statistical_validation.R) · [Technical report](https://github.com/callumkealey/predictive-customer-analytics/blob/main/technical_report.pdf)
+
+### [SQL & Tableau Market Analysis](https://github.com/callumkealey/sql-tableau-market-analysis)
+**SQL · Tableau · Excel · Commercial analytics**
+
+Customer and sales analysis using SQL joins, grouped aggregations, derived fields and intermediate tables. The accompanying report covers Tableau dashboard design, demographics, advertising engagement and the limits of cross-country comparisons.
+
+[SQL script](https://github.com/callumkealey/sql-tableau-market-analysis/blob/main/market_analysis.sql) · [Dashboard design and report](https://github.com/callumkealey/sql-tableau-market-analysis/blob/main/market_analysis_report.pdf)
+
+### [NHS Operational Capacity Analysis](https://github.com/callumkealey/nhs-operational-capacity-analysis)
+**Python · pandas · Operational analytics**
+
+Analysis of appointment demand, utilisation and missed appointments, including data-quality checks, time-based aggregations and service comparisons. The report translates findings into potential service improvements while acknowledging the limits of supplementary social-media evidence.
+
+[Python notebook](https://github.com/callumkealey/nhs-operational-capacity-analysis/blob/main/nhs_operational_capacity_analysis.ipynb) · [Operational report](https://github.com/callumkealey/nhs-operational-capacity-analysis/blob/main/nhs_operational_capacity_report.pdf)
+
+## Technical evidence at a glance
+
+| Area | Examples in this portfolio |
 | --- | --- |
-| SQL | Customer-ID joins, derived fields, grouped spending totals and intermediate tables in the market-analysis script |
-| Python | Data preparation and exploratory analysis; regression, decision trees and clustering in the customer notebook; operational analysis in the NHS project |
-| BI & visualisation | Tableau dashboard design documented in the market report; Python charts in the analytical projects |
-| R & validation | Multiple regression, residual diagnostics and scenario predictions in the customer-validation script |
-| Decision support | Findings, recommendations and limitations documented in all three project reports |
+| **Python & analytical modelling** | pandas analysis; regression, decision trees and clustering; investment scenario scoring |
+| **SQL** | Joins, aggregation, derived fields and intermediate tables in the market-analysis project |
+| **Visualisation & reporting** | Tableau dashboard design, analytical reports, Python charts and Streamlit interfaces |
+| **Integration & software engineering** | REST API, asset-ID reconciliation, SQLite, tool-calling agent, automated pytest checks and CI |
+| **Decision support** | Capital-budget optimisation, sensitivity testing, operational recommendations and explicit model limitations |
 
-**Portfolio scope:** These are analytical case studies. Source datasets are not included in the repositories; the code and reports show the workflow and interpretation, but cannot be rerun from the repository files alone. The approximately 84% regression figure is explained variance, not a claim of 84% predictive accuracy or achieved business impact.
+**Scope:** The Copilot is a synthetic personal project, not a commercial deployment or a validated capital-planning model. The original datasets for the three LSE case studies are not included in their repositories; their notebooks, scripts and reports document the methods and findings.
 
-## Interests & contact
-
-I’m interested in work where data, operations and strategy overlap, particularly service performance, operational improvement, transport and infrastructure.
+## Connect
 
 [LinkedIn](https://www.linkedin.com/in/callum-kealey-25383024a/)
